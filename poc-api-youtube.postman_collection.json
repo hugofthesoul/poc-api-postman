@@ -1,0 +1,486 @@
+{
+	"info": {
+		"_postman_id": "07fd47d4-d228-42b5-ad9b-91b9c5ff9659",
+		"name": "poc-api-youtube",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get-videos-bo-es",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.googleapis.com/youtube/v3/search?key={api-key}&part=snippet&maxResults=1&order=date&regionCode=bo&relevanceLanguage=es&safeSearch=strict&type=video&videoDuration=short&videoEmbeddable=true&q=gracias trabajadores de la salud",
+					"protocol": "https",
+					"host": [
+						"www",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"youtube",
+						"v3",
+						"search"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{api-key}"
+						},
+						{
+							"key": "part",
+							"value": "snippet"
+						},
+						{
+							"key": "maxResults",
+							"value": "1"
+						},
+						{
+							"key": "order",
+							"value": "date"
+						},
+						{
+							"key": "regionCode",
+							"value": "bo"
+						},
+						{
+							"key": "relevanceLanguage",
+							"value": "es"
+						},
+						{
+							"key": "safeSearch",
+							"value": "strict"
+						},
+						{
+							"key": "type",
+							"value": "video"
+						},
+						{
+							"key": "videoDuration",
+							"value": "short"
+						},
+						{
+							"key": "videoEmbeddable",
+							"value": "true"
+						},
+						{
+							"key": "q",
+							"value": "gracias trabajadores de la salud"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get-videos-us-en",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.googleapis.com/youtube/v3/search?key={api-key}&part=snippet&maxResults=1&order=date&regionCode=us&relevanceLanguage=en&safeSearch=strict&type=video&videoDuration=short&videoEmbeddable=true&q=%23covidthankyous",
+					"protocol": "https",
+					"host": [
+						"www",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"youtube",
+						"v3",
+						"search"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{api-key}"
+						},
+						{
+							"key": "part",
+							"value": "snippet"
+						},
+						{
+							"key": "maxResults",
+							"value": "1"
+						},
+						{
+							"key": "order",
+							"value": "date"
+						},
+						{
+							"key": "regionCode",
+							"value": "us"
+						},
+						{
+							"key": "relevanceLanguage",
+							"value": "en"
+						},
+						{
+							"key": "safeSearch",
+							"value": "strict"
+						},
+						{
+							"key": "type",
+							"value": "video"
+						},
+						{
+							"key": "videoDuration",
+							"value": "short"
+						},
+						{
+							"key": "videoEmbeddable",
+							"value": "true"
+						},
+						{
+							"key": "q",
+							"value": "%23covidthankyous"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get-videos-ca-en",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.googleapis.com/youtube/v3/search?key={api-key}&part=snippet&maxResults=1&order=date&regionCode=ca&relevanceLanguage=en&safeSearch=strict&type=video&videoDuration=short&videoEmbeddable=true&q=thank you health care workers",
+					"protocol": "https",
+					"host": [
+						"www",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"youtube",
+						"v3",
+						"search"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{api-key}"
+						},
+						{
+							"key": "part",
+							"value": "snippet"
+						},
+						{
+							"key": "maxResults",
+							"value": "1"
+						},
+						{
+							"key": "order",
+							"value": "date"
+						},
+						{
+							"key": "regionCode",
+							"value": "ca"
+						},
+						{
+							"key": "relevanceLanguage",
+							"value": "en"
+						},
+						{
+							"key": "safeSearch",
+							"value": "strict"
+						},
+						{
+							"key": "type",
+							"value": "video"
+						},
+						{
+							"key": "videoDuration",
+							"value": "short"
+						},
+						{
+							"key": "videoEmbeddable",
+							"value": "true"
+						},
+						{
+							"key": "q",
+							"value": "thank you health care workers"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get-videos-ca-fr",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.googleapis.com/youtube/v3/search?key={api-key}&part=snippet&maxResults=1&order=date&regionCode=ca&relevanceLanguage=fr&safeSearch=strict&type=video&videoDuration=short&videoEmbeddable=true&q=merci aux travailleurs de la santé",
+					"protocol": "https",
+					"host": [
+						"www",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"youtube",
+						"v3",
+						"search"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{api-key}"
+						},
+						{
+							"key": "part",
+							"value": "snippet"
+						},
+						{
+							"key": "maxResults",
+							"value": "1"
+						},
+						{
+							"key": "order",
+							"value": "date"
+						},
+						{
+							"key": "regionCode",
+							"value": "ca"
+						},
+						{
+							"key": "relevanceLanguage",
+							"value": "fr"
+						},
+						{
+							"key": "safeSearch",
+							"value": "strict"
+						},
+						{
+							"key": "type",
+							"value": "video"
+						},
+						{
+							"key": "videoDuration",
+							"value": "short"
+						},
+						{
+							"key": "videoEmbeddable",
+							"value": "true"
+						},
+						{
+							"key": "q",
+							"value": "merci aux travailleurs de la santé"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get-videos-gb-en",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.googleapis.com/youtube/v3/search?key={api-key}&part=snippet&maxResults=1&order=date&regionCode=gb&relevanceLanguage=en&safeSearch=strict&type=video&videoDuration=short&videoEmbeddable=true&q=%23thankyounhs",
+					"protocol": "https",
+					"host": [
+						"www",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"youtube",
+						"v3",
+						"search"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{api-key}"
+						},
+						{
+							"key": "part",
+							"value": "snippet"
+						},
+						{
+							"key": "maxResults",
+							"value": "1"
+						},
+						{
+							"key": "order",
+							"value": "date"
+						},
+						{
+							"key": "regionCode",
+							"value": "gb"
+						},
+						{
+							"key": "relevanceLanguage",
+							"value": "en"
+						},
+						{
+							"key": "safeSearch",
+							"value": "strict"
+						},
+						{
+							"key": "type",
+							"value": "video"
+						},
+						{
+							"key": "videoDuration",
+							"value": "short"
+						},
+						{
+							"key": "videoEmbeddable",
+							"value": "true"
+						},
+						{
+							"key": "q",
+							"value": "%23thankyounhs"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get-videos-de-de",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.googleapis.com/youtube/v3/search?key={api-key}&part=snippet&maxResults=1&order=date&regionCode=de&relevanceLanguage=de&safeSearch=strict&type=video&videoDuration=short&videoEmbeddable=true&q=vielen dank an die mitarbeiter des gesundheitswesens",
+					"protocol": "https",
+					"host": [
+						"www",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"youtube",
+						"v3",
+						"search"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{api-key}"
+						},
+						{
+							"key": "part",
+							"value": "snippet"
+						},
+						{
+							"key": "maxResults",
+							"value": "1"
+						},
+						{
+							"key": "order",
+							"value": "date"
+						},
+						{
+							"key": "regionCode",
+							"value": "de"
+						},
+						{
+							"key": "relevanceLanguage",
+							"value": "de"
+						},
+						{
+							"key": "safeSearch",
+							"value": "strict"
+						},
+						{
+							"key": "type",
+							"value": "video"
+						},
+						{
+							"key": "videoDuration",
+							"value": "short"
+						},
+						{
+							"key": "videoEmbeddable",
+							"value": "true"
+						},
+						{
+							"key": "q",
+							"value": "vielen dank an die mitarbeiter des gesundheitswesens"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get-videos-in-en",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.googleapis.com/youtube/v3/search?key={api-key}&part=snippet&maxResults=1&order=date&regionCode=in&relevanceLanguage=en&safeSearch=strict&type=video&videoDuration=short&videoEmbeddable=true&q=thank you health care workers",
+					"protocol": "https",
+					"host": [
+						"www",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"youtube",
+						"v3",
+						"search"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{api-key}"
+						},
+						{
+							"key": "part",
+							"value": "snippet"
+						},
+						{
+							"key": "maxResults",
+							"value": "1"
+						},
+						{
+							"key": "order",
+							"value": "date"
+						},
+						{
+							"key": "regionCode",
+							"value": "in"
+						},
+						{
+							"key": "relevanceLanguage",
+							"value": "en"
+						},
+						{
+							"key": "safeSearch",
+							"value": "strict"
+						},
+						{
+							"key": "type",
+							"value": "video"
+						},
+						{
+							"key": "videoDuration",
+							"value": "short"
+						},
+						{
+							"key": "videoEmbeddable",
+							"value": "true"
+						},
+						{
+							"key": "q",
+							"value": "thank you health care workers"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
