@@ -12,6 +12,9 @@ Notes on merge:
 - So after merge down please re-import the collection.
 - And before you commit please export the collection (take default).
 
+--- STATISTICS ---
+https://covid19api.com
+
 --- YOUTUBE ---
 https://developers.google.com/youtube/v3/docs/search/list
 
@@ -29,4 +32,4 @@ Please try this and we can come back to it:
 
 <a href="https://twitter.com/intent/tweet?button_hashtag=thankyounhs&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="false">Tweet #thankyounhs</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
---- TODO STATISTICS ---
+--- TODO REDDIT ---
